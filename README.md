@@ -1,1 +1,1 @@
-# GitLab-Account-Password-and-Email-Change
+# GitLab Account: Password and Email Change
