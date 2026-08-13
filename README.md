@@ -35,3 +35,16 @@ user.save!
 exit
 ```
 ---
+
+#### browser e jaw
+```bash
+http://localhost:8000
+```
+---
+
+#### login koro
+```bash
+Username: root
+Password: w@sIm1997$
+```
+---
