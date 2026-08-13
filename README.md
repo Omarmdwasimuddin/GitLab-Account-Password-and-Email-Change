@@ -50,3 +50,47 @@ Username: root
 Password: w@sIm1997$
 ```
 ---
+
+#### Successfully password change hoye jabe!
+---
+
+#### admin email change
+
+####
+```bash
+docker exec -it my-gitlab-server gitlab-rails console
+```
+---
+
+#### kichukhon wait korle ruby console ashbe
+```bash
+--------------------------------------------------------------------------------
+ Ruby:         ruby 3.x.x
+ GitLab:       ...
+ Rails:        ...
+--------------------------------------------------------------------------------
+Loading production environment
+irb(main):001>
+```
+---
+
+#### eke eke daw
+```bash
+root = User.find_by_username('root')
+```
+```bash
+root.email = 'mdwasimu015@gmail.com'
+```
+```bash
+root.skip_reconfirmation!
+```
+```bash
+root.save!
+```
+---
+
+#### verify koro root email change hoiche kina
+```bash
+User.find_by_username('root').email
+```
+---
