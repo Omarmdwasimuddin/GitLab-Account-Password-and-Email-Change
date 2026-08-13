@@ -1,5 +1,7 @@
 # GitLab Account: Password and Email Change
 
+#### gitlab server o gitlab runner er folder ache Demo folder e. demo folder vs e open kore terminal e daw.
+
 ####
 ```bash
 docker exec -it my-gitlab-server gitlab-rails console
@@ -18,7 +20,7 @@ irb(main):001>
 ```
 ---
 
-#### 
+#### eke eke daw
 ```bash
 user = User.find_by_username('root')
 ```
