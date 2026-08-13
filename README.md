@@ -1,4 +1,4 @@
-# GitLab Account: Password and Email Change
+# GitLab Account: Admin Password and Email Change
 
 #### gitlab server o gitlab runner er folder ache Demo folder e. demo folder vs e open kore terminal e daw.
 
