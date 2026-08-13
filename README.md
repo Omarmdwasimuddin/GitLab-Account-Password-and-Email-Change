@@ -2,7 +2,7 @@
 
 #### gitlab server o gitlab runner er folder ache Demo folder e. demo folder vs e open kore terminal e daw.
 
-####
+#### run koro: GitLab Rails console
 ```bash
 docker exec -it my-gitlab-server gitlab-rails console
 ```
@@ -56,7 +56,7 @@ Password: w@sIm1997$
 
 #### admin email change
 
-####
+#### run koro: GitLab Rails console
 ```bash
 docker exec -it my-gitlab-server gitlab-rails console
 ```
